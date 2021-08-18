@@ -1,0 +1,11 @@
+.text-field {
+    -fx-background-color: A2DBFA;
+    -fx-font-size: 10px;
+    -fx-text-fill: #687980;
+    -fx-prompt-text-fill: white;
+    -fx-background-insets: 0, 1 1 1 1 ;
+    -fx-background-radius: 5 ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
